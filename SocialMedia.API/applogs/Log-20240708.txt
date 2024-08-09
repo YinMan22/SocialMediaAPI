@@ -1,0 +1,146 @@
+2024-07-08 23:12:05.508 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-07-08 23:12:05.646 +08:00 [DBG] Hosting starting
+2024-07-08 23:12:05.697 +08:00 [INF] User profile is available. Using 'C:\Users\Muk Yin Man\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-08 23:12:05.707 +08:00 [DBG] Reading data from file 'C:\Users\Muk Yin Man\AppData\Local\ASP.NET\DataProtection-Keys\key-9de9a68f-25ad-4daf-b17c-39d23d94eae0.xml'.
+2024-07-08 23:12:05.718 +08:00 [DBG] Found key {9de9a68f-25ad-4daf-b17c-39d23d94eae0}.
+2024-07-08 23:12:05.729 +08:00 [DBG] Considering key {9de9a68f-25ad-4daf-b17c-39d23d94eae0} with expiration date 2024-09-23 05:47:19Z as default key.
+2024-07-08 23:12:05.735 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-08 23:12:05.739 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-07-08 23:12:05.742 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-08 23:12:05.748 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-07-08 23:12:05.751 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-07-08 23:12:05.755 +08:00 [DBG] Using key {9de9a68f-25ad-4daf-b17c-39d23d94eae0} as the default key.
+2024-07-08 23:12:05.758 +08:00 [DBG] Key ring with default key {9de9a68f-25ad-4daf-b17c-39d23d94eae0} was loaded during application startup.
+2024-07-08 23:12:06.035 +08:00 [INF] Now listening on: https://localhost:7081
+2024-07-08 23:12:06.039 +08:00 [INF] Now listening on: http://localhost:5038
+2024-07-08 23:12:06.041 +08:00 [DBG] Loaded hosting startup assembly SocialMedia.API
+2024-07-08 23:12:06.042 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-08 23:12:06.043 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-08 23:12:06.049 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-08 23:12:06.054 +08:00 [INF] Hosting environment: Development
+2024-07-08 23:12:06.058 +08:00 [INF] Content root path: C:\Users\Muk Yin Man\source\repos\SocialMedia\SocialMedia.API
+2024-07-08 23:12:06.059 +08:00 [DBG] Hosting started
+2024-07-08 23:12:06.198 +08:00 [DBG] Connection id "0HN4VC1A6T8NQ" accepted.
+2024-07-08 23:12:06.198 +08:00 [DBG] Connection id "0HN4VC1A6T8NP" accepted.
+2024-07-08 23:12:06.201 +08:00 [DBG] Connection id "0HN4VC1A6T8NQ" started.
+2024-07-08 23:12:06.202 +08:00 [DBG] Connection id "0HN4VC1A6T8NP" started.
+2024-07-08 23:12:06.218 +08:00 [DBG] Connection id "0HN4VC1A6T8NP" received FIN.
+2024-07-08 23:12:06.218 +08:00 [DBG] Connection id "0HN4VC1A6T8NQ" received FIN.
+2024-07-08 23:12:06.226 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-08 23:12:06.229 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-08 23:12:06.246 +08:00 [DBG] Connection id "0HN4VC1A6T8NP" stopped.
+2024-07-08 23:12:06.246 +08:00 [DBG] Connection id "0HN4VC1A6T8NQ" stopped.
+2024-07-08 23:12:06.250 +08:00 [DBG] Connection id "0HN4VC1A6T8NQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-08 23:12:06.250 +08:00 [DBG] Connection id "0HN4VC1A6T8NP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-08 23:12:06.511 +08:00 [DBG] Connection id "0HN4VC1A6T8NR" accepted.
+2024-07-08 23:12:06.513 +08:00 [DBG] Connection id "0HN4VC1A6T8NR" started.
+2024-07-08 23:12:06.544 +08:00 [DBG] Connection 0HN4VC1A6T8NR established using the following protocol: "Tls13"
+2024-07-08 23:12:06.612 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7081/swagger/index.html - null null
+2024-07-08 23:12:06.769 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-07-08 23:12:06.794 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-08 23:12:06.796 +08:00 [DBG] Request did not match any endpoints
+2024-07-08 23:12:06.884 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-07-08 23:12:06.958 +08:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-07-08 23:12:06.960 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-08 23:12:06.974 +08:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-07-08 23:12:06.975 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-08 23:12:06.981 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7081/swagger/index.html - 200 null text/html;charset=utf-8 373.6675ms
+2024-07-08 23:12:06.988 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7081/_vs/browserLink - null null
+2024-07-08 23:12:06.989 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7081/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-08 23:12:07.015 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7081/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 29.0744ms
+2024-07-08 23:12:07.047 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7081/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.194ms
+2024-07-08 23:12:07.110 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7081/swagger/v1/swagger.json - null null
+2024-07-08 23:12:07.114 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-08 23:12:07.115 +08:00 [DBG] Request did not match any endpoints
+2024-07-08 23:12:07.117 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-07-08 23:12:07.249 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7081/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 139.2528ms
+2024-07-08 23:12:17.310 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7081/Post/Comment - application/json 41
+2024-07-08 23:12:17.318 +08:00 [DBG] 1 candidate(s) found for the request path '/Post/Comment'
+2024-07-08 23:12:17.322 +08:00 [DBG] Endpoint 'SocialMedia.API.Controllers.PostController.Comment (SocialMedia.API)' with route pattern 'Post/Comment' is valid for the request path '/Post/Comment'
+2024-07-08 23:12:17.324 +08:00 [DBG] Request matched endpoint 'SocialMedia.API.Controllers.PostController.Comment (SocialMedia.API)'
+2024-07-08 23:12:17.397 +08:00 [DBG] Successfully validated the token.
+2024-07-08 23:12:17.399 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-07-08 23:12:17.403 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-08 23:12:17.409 +08:00 [DBG] Authorization was successful.
+2024-07-08 23:12:17.413 +08:00 [INF] Executing endpoint 'SocialMedia.API.Controllers.PostController.Comment (SocialMedia.API)'
+2024-07-08 23:12:17.440 +08:00 [INF] Route matched with {action = "Comment", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SocialMedia.Application.Entities.Commands.Posts.CommentPost.CommentPostResponse]] Comment(SocialMedia.Application.Entities.Commands.Posts.CommentPost.CommentPostCommand, System.Threading.CancellationToken) on controller SocialMedia.API.Controllers.PostController (SocialMedia.API).
+2024-07-08 23:12:17.443 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-07-08 23:12:17.445 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-07-08 23:12:17.447 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-07-08 23:12:17.450 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-07-08 23:12:17.452 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-07-08 23:12:17.455 +08:00 [DBG] Executing controller factory for controller SocialMedia.API.Controllers.PostController (SocialMedia.API)
+2024-07-08 23:12:17.457 +08:00 [DBG] Executed controller factory for controller SocialMedia.API.Controllers.PostController (SocialMedia.API)
+2024-07-08 23:12:17.470 +08:00 [DBG] Attempting to bind parameter 'query' of type 'SocialMedia.Application.Entities.Commands.Posts.CommentPost.CommentPostCommand' ...
+2024-07-08 23:12:17.474 +08:00 [DBG] Attempting to bind parameter 'query' of type 'SocialMedia.Application.Entities.Commands.Posts.CommentPost.CommentPostCommand' using the name '' in request data ...
+2024-07-08 23:12:17.477 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-07-08 23:12:17.490 +08:00 [DBG] Connection id "0HN4VC1A6T8NR", Request id "0HN4VC1A6T8NR:00000009": started reading request body.
+2024-07-08 23:12:17.492 +08:00 [DBG] Connection id "0HN4VC1A6T8NR", Request id "0HN4VC1A6T8NR:00000009": done reading request body.
+2024-07-08 23:12:17.498 +08:00 [DBG] JSON input formatter succeeded, deserializing to type 'SocialMedia.Application.Entities.Commands.Posts.CommentPost.CommentPostCommand'
+2024-07-08 23:12:17.500 +08:00 [DBG] Done attempting to bind parameter 'query' of type 'SocialMedia.Application.Entities.Commands.Posts.CommentPost.CommentPostCommand'.
+2024-07-08 23:12:17.501 +08:00 [DBG] Done attempting to bind parameter 'query' of type 'SocialMedia.Application.Entities.Commands.Posts.CommentPost.CommentPostCommand'.
+2024-07-08 23:12:17.503 +08:00 [DBG] Attempting to validate the bound parameter 'query' of type 'SocialMedia.Application.Entities.Commands.Posts.CommentPost.CommentPostCommand' ...
+2024-07-08 23:12:17.512 +08:00 [DBG] Done attempting to validate the bound parameter 'query' of type 'SocialMedia.Application.Entities.Commands.Posts.CommentPost.CommentPostCommand'.
+2024-07-08 23:12:17.515 +08:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-07-08 23:12:17.517 +08:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-07-08 23:12:17.519 +08:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-07-08 23:12:17.521 +08:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-07-08 23:12:17.727 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-07-08 23:12:17.856 +08:00 [INF] Stat Comment Post | Request={"PostId":13,"Comment":"string"}
+2024-07-08 23:12:18.545 +08:00 [DBG] Entity Framework Core 8.0.6 initialized 'SocialMediaDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: DetailedErrorsEnabled MaxPoolSize=1024 CommandTimeout=30 
+2024-07-08 23:12:18.618 +08:00 [DBG] Compiling query expression: 
+'DbSet<Post>()
+    .Where(p => p.Id == __request_PostId_0)
+    .FirstOrDefault()'
+2024-07-08 23:12:18.781 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Post>(
+    asyncEnumerable: new SingleQueryingEnumerable<Post>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Post.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Post.Content (string) Required MaxLength(1000), 1], [Property: Post.CreatedTime (DateTime) Required, 2], [Property: Post.Image (byte[]), 3], [Property: Post.Likes (int) Required ValueGenerated.OnAdd, 4], [Property: Post.UserId (int) Required FK Index, 5] }
+            SELECT TOP(1) p.Id, p.Content, p.CreatedTime, p.Image, p.Likes, p.UserId
+            FROM Post AS p
+            WHERE p.Id == @__request_PostId_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Post>, 
+        SocialMedia.Infrastructure.Persistence.SocialMediaDbContext, 
+        False, 
+        True, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-07-08 23:12:18.811 +08:00 [DBG] Creating DbConnection.
+2024-07-08 23:12:18.832 +08:00 [DBG] Created DbConnection. (17ms).
+2024-07-08 23:12:18.835 +08:00 [DBG] Opening connection to database 'SocialMediaDb' on server '(localdb)\mssqllocaldb'.
+2024-07-08 23:12:19.035 +08:00 [DBG] Opened connection to database 'SocialMediaDb' on server '(localdb)\mssqllocaldb'.
+2024-07-08 23:12:19.040 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-08 23:12:19.048 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2024-07-08 23:12:19.057 +08:00 [DBG] Initialized DbCommand for 'ExecuteReader' (16ms).
+2024-07-08 23:12:19.067 +08:00 [DBG] Executing DbCommand [Parameters=[@__request_PostId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Content], [p].[CreatedTime], [p].[Image], [p].[Likes], [p].[UserId]
+FROM [Post] AS [p]
+WHERE [p].[Id] = @__request_PostId_0
+2024-07-08 23:12:19.127 +08:00 [INF] Executed DbCommand (58ms) [Parameters=[@__request_PostId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Content], [p].[CreatedTime], [p].[Image], [p].[Likes], [p].[UserId]
+FROM [Post] AS [p]
+WHERE [p].[Id] = @__request_PostId_0
+2024-07-08 23:12:19.142 +08:00 [DBG] Closing data reader to 'SocialMediaDb' on server '(localdb)\mssqllocaldb'.
+2024-07-08 23:12:19.152 +08:00 [DBG] A data reader for 'SocialMediaDb' on server '(localdb)\mssqllocaldb' is being disposed after spending 16ms reading results.
+2024-07-08 23:12:19.157 +08:00 [DBG] Closing connection to database 'SocialMediaDb' on server '(localdb)\mssqllocaldb'.
+2024-07-08 23:12:19.162 +08:00 [DBG] Closed connection to database 'SocialMediaDb' on server '(localdb)\mssqllocaldb' (5ms).
+2024-07-08 23:12:19.211 +08:00 [ERR] CommentPost Exception: PostId: 13 is not found. | Request={"PostId":13,"Comment":"string"}
+2024-07-08 23:12:19.329 +08:00 [INF] Executed action SocialMedia.API.Controllers.PostController.Comment (SocialMedia.API) in 1864.2359ms
+2024-07-08 23:12:19.335 +08:00 [INF] Executed endpoint 'SocialMedia.API.Controllers.PostController.Comment (SocialMedia.API)'
+2024-07-08 23:12:19.406 +08:00 [ERR] Bad request exception for RequestPath=/Post/Comment | ResultCode=SM00008 | ResultMessage=PostId: 13 is not found.
+2024-07-08 23:12:19.426 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7081/Post/Comment - 400 null application/json; charset=utf-8 2117.0424ms

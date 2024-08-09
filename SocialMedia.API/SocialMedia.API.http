@@ -1,0 +1,6 @@
+# @SocialMedia.API_HostAddress = http://localhost:7081
+
+# GET {{SocialMedia.API_HostAddress}}/Post/
+# Accept: application/json
+
+###
